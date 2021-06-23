@@ -1,78 +1,124 @@
 body {
-    margin-top: 0;
+    margin: 0;
+    position: relative;
+
+}
+img {
+    position: absolute;
+
+    position: absolute;
+    width: 40%;
+    margin-top: 120px;
+    margin-left: 77px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
 
 }
 
 .top-heading {
-    position: absolute;
-    width: 133px;
+    position: relative;
+
+
     height: 25px;
-    left: 77px;
+
     top: 40px;
-    font-family: Inconsolata;
+    font-family: 'Inconsolata', monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 25px;
-    letter-spacing: -0.08em;
     text-transform: uppercase;
 }
 
-.image {
+.not-found {
     position: absolute;
-    left: 5.35%;
-    right: 57.21%;
-    top: 24.54%;
-    bottom: 37.11%;
+    left: 77px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #333333;
 }
+
+
+.image-container {
+    position: relative;
+}
+
+
 
 .bad-news {
     position: absolute;
     width: 586px;
     height: 190px;
-    left: 735px;
-    top: 265px;
+    left: 800px;
+    top: 150px;
 
-    font-family: Space Mono;
+    font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
-    line-height: 95px;
-    letter-spacing: -0.035em;
+    margin-bottom: 10px;
+
 }
 
 .page {
     position: absolute;
-    width: 381px;
-    height: 108px;
-    left: 736px;
-    top: 491px;
+    width: 400px;
+    height: 200px;
+    left: 800px;
+    top: 380px;
+    color:#4f4f4f;
 
-    font-family: Space Mono;
+    font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 45px;
+    margin-top: 0px;
     letter-spacing: -0.035em;
 }
 
 .footer {
-    position: absolute;
-    width: 600px;
-    height: 100px;
-    left: 577px;
-    top: 1039px;
-
-
-    /* identical to box height */
-
-    text-align: center;
+    position: relative;
 }
 
-.footerline {
-    font-family: Montserrat sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+.footer-line {
+    position: absolute;
+    top: 660px;
+    left: 620px;
+}
+
+.bad-news-1 {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    color: #333333;
+}
+.button-container{
+    position: relative;
+}
+.btn {
+    position: absolute;
+    background: #333333;
+    background-image: -webkit-linear-gradient(top, #333333, #333333);
+    background-image: -moz-linear-gradient(top, #333333, #333333);
+    background-image: -ms-linear-gradient(top, #333333, #333333);
+    background-image: -o-linear-gradient(top, #333333, #333333);
+    background-image: linear-gradient(to bottom, #333333, #333333);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 9px 13px 10px 22px;
+    text-decoration: none;
+    top:540px;
+    left:800px;
+    margin-top:40px;
+
+}
+
+.btn:hover {
+    background: #918e91;
+    text-decoration: none;
 }

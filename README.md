@@ -27,11 +27,11 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Overview](https://github.com/Naman-Gupta1234/404-Not-Found/blob/main/README.md#overview)
+  - [Built With](https://github.com/Naman-Gupta1234/404-Not-Found/blob/main/README.md#built-with)
+- [Features](https://github.com/Naman-Gupta1234/404-Not-Found/blob/main/README.md#features)
+- [Contact](https://github.com/Naman-Gupta1234/404-Not-Found/blob/main/README.md#contact)
+- [Acknowledgements](https://github.com/Naman-Gupta1234/404-Not-Found/blob/main/README.md#acknowledgements)
 
 <!-- OVERVIEW -->
 
